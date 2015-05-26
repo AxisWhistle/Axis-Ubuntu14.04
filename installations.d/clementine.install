@@ -1,0 +1,5 @@
+#!/bin/bash
+# install clementine
+sudo apt-add-repository ppa:me-davidsansome/clementine -y
+sudo apt-get update
+sudo apt-get install clementine -y

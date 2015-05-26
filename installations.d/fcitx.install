@@ -1,0 +1,6 @@
+#!/bin/bash
+# install fcitx
+sudo add-apt-repository ppa:fcitx-team/nightly -y
+sudo apt-get update
+sudo apt-get install fcitx fcitx-pinyin fcitx-sunpinyin  fcitx-table fcitx-table-wubi -y
+sudo apt-get install -f

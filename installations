@@ -1,0 +1,60 @@
+#!/bin/bash
+# install chromium
+sudo apt-get install chromium-browser -y
+sudo apt-get install pepperflashplugin-nonfree -y
+sudo update-pepperflashplugin-nonfree --install
+
+# install git
+sudo apt-get install git -y
+
+# install calibre
+sudo apt-get install calibre
+
+# install goldendict
+sudo apt-get install goldendict -y
+
+# install okular
+sudo apt-get install okular -y
+
+# install zip unzip
+sudo apt-get install zip unzip  unrar
+
+# install amule
+sudo apt-get install amule
+
+# install vlc
+sudo apt-get install vlc -y
+
+# install unity tweak
+sudo apt-get install unity-tweak-tool -y
+
+#install kuaipan4uk
+sudo apt-get install kuaipan4uk
+
+# install  virtualbox
+sudo apt-get install virtualbox
+
+# install traceroute
+sudo apt-get install traceroute
+
+# install gnome dictionary
+sudo apt-get install gnome-dictionary
+
+# install mysql --need to interact
+sudo apt-get install mysql-server-5.6 mysql-client-5.6 -y
+sudo apt-get install mysql-workbench-community -y
+
+
+# install from installations.d
+DIR=installations.d
+for script in $(ls $DIR/*.install)
+do
+    echo 'exec...' $script
+    $script
+done
+
+
+
+
+
+

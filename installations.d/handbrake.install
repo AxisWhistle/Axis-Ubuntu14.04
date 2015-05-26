@@ -1,0 +1,3 @@
+#!/bin/bash
+# install handbrake
+sudo apt-get install handbrake  -y

@@ -1,0 +1,5 @@
+#!/bin/bash
+# install qbittorrent
+sudo add-apt-repository ppa:hydr0g3n/qbittorrent-stable -y
+sudo apt-get update
+sudo apt-get install qbittorrent -y

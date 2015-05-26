@@ -1,0 +1,8 @@
+#!/bin/bash
+# install python bindings for nautilus extension
+sudo apt-get install python-nautilus gir1.2-gconf-2.0 -y
+wget  https://raw.github.com/vitaut/captain-nemo/master/captain_nemo.py  -O  ~/.local/share/nautilus-python/extensions/captain_nemo.py
+nautilus -q
+nautilus &
+
+
