@@ -1,7 +1,7 @@
 # Axis-Ubuntu14.04
 
 ## 目录
-+ #### [installations](#installations)
++ [installations](#installations)
 + 
 
 + <h2 id="installations">installatioins</h2>
