@@ -1,0 +1,6 @@
+# 需要在命令行进行设置
+sudo apt-add-repository ppa:seriy-pr/network-manager-l2tp -y
+sudo apt-get update
+sudo apt-get install network-manager-l2tp
+sudo service xl2tpd stop
+sudo update-rc.d xl2tpd disable

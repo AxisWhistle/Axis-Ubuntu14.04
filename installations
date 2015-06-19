@@ -8,7 +8,7 @@ sudo update-pepperflashplugin-nonfree --install
 sudo apt-get install git -y
 
 # install calibre
-sudo apt-get install calibre
+sudo apt-get install calibre -y
 
 # install goldendict
 sudo apt-get install goldendict -y
@@ -17,10 +17,10 @@ sudo apt-get install goldendict -y
 sudo apt-get install okular -y
 
 # install zip unzip
-sudo apt-get install zip unzip  unrar
+sudo apt-get install zip unzip  unrar -y
 
 # install amule
-sudo apt-get install amule
+sudo apt-get install amule -y
 
 # install vlc
 sudo apt-get install vlc -y
@@ -29,22 +29,33 @@ sudo apt-get install vlc -y
 sudo apt-get install unity-tweak-tool -y
 
 #install kuaipan4uk
-sudo apt-get install kuaipan4uk
+sudo apt-get install kuaipan4uk -y
 
 # install  virtualbox
-sudo apt-get install virtualbox
+sudo apt-get install virtualbox -y
 
 # install traceroute
-sudo apt-get install traceroute
+sudo apt-get install traceroute -y
 
 # install gnome dictionary
-sudo apt-get install gnome-dictionary
+sudo apt-get install gnome-dictionary -y
 
+# install most
+sudo apt-get install most -y
+
+# install build-essential
+sudo apt-get install  build-essential -y
+
+# install shutter
+sudo apt-get install shutter -y
 # install mysql --need to interact
 sudo apt-get install mysql-server-5.6 mysql-client-5.6 -y
 sudo apt-get install mysql-workbench-community -y
 
-
+# install swaks
+sudo apt-get install swaks -y
+# install wqy font
+sudo apt-get install ttf-wqy-* -y
 # install from installations.d
 DIR=installations.d
 for script in $(ls $DIR/*.install)
